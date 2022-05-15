@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/activity_info.xml" value="0.19199594731509625" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/activity_main.xml" value="0.19174265450861194" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/activity_toolbar.xml" value="0.19199594731509625" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/fragment_blank.xml" value="0.19174265450861194" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/fragment_board.xml" value="0.19174265450861194" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/fragment_chatting.xml" value="0.19174265450861194" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/layout/fragment_project.xml" value="0.19174265450861194" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/menu/menu.xml" value="0.34074074074074073" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/menu/navi_menu.xml" value="0.34074074074074073" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/ProjectCollaboration/app/src/main/res/menu/toolbar_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

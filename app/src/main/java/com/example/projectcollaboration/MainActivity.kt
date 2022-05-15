@@ -2,15 +2,25 @@ package com.example.projectcollaboration
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import com.example.projectcollaboration.Board.BoardFragment
 import com.example.projectcollaboration.Chatting.ChattingFragment
 import com.example.projectcollaboration.Project.ProjectFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        setSupportActionBar(toolbar_menu)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+            menuInflater.inflate(R.menu.toolbar_menu, menu)
+            return true
+        }
 
         var bnv_main = findViewById(R.id.bnv_main) as BottomNavigationView
 
